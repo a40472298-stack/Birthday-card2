@@ -93,10 +93,12 @@ export default function Home() {
                   <path d="M12 21s-7-4.35-9-6.92C-0.22 9.9 4.5 4 9.5 7.5 12 9.33 12 9.33 14.5 7.5 19.5 4 24.22 9.9 21 14.08 19 16.65 12 21 12 21z" fill="#EF4444"/>
                 </svg>
               </div>
-              <h2 className="text-2xl font-semibold text-pink-700"><AnimatedText text="To My jind jan Maha❤️" /></h2>
+              <h2 className="text-2xl font-semibold text-pink-700">
+            <AnimatedText text="To My jind jan Maha❤️" />
+            </h2>
               <p className="text-gray-700 leading-relaxed text-left">
-                <AnimatedText text={"Happy Birthday, my love ❤️🌙 As the world quietly enters this new day, my heart is louder than ever, beating only for you. From the very first moment I met you, my life changed in ways I can’t even put into words — you became my comfort, my hope, my safe place, and my greatest blessing. Tonight isn’t just about celebrating the day you were born; it’s about celebrating the light you bring to my life, the kindness you give to everyone around you, and the love that makes me whole. I want to be the reason behind your smile, the hand you hold through every storm, and the soul that makes you feel cherished every single day. This birthday, and every birthday after, I promise to love you deeper than yesterday, care for you more than ever, and stand by you for all of life’s tomorrows. You are not just my love, you are my forever, my everything.
-💕"} />
+                <AnimatedText text={'Happy Birthday, my love ❤️🌙 As the world quietly enters this new day, my heart is louder than ever, beating only for you. From the very first moment I met you, my life changed in ways I can’t even put into words — you became my comfort, my hope, my safe place, and my greatest blessing. Tonight isn’t just about celebrating the day you were born; it’s about celebrating the light you bring to my life, the kindness you give to everyone around you, and the love that makes me whole. I want to be the reason behind your smile, the hand you hold through every storm, and the soul that makes you feel cherished every single day. This birthday, and every birthday after, I promise to love you deeper than yesterday, care for you more than ever, and stand by you for all of life’s tomorrows. You are not just my love, you are my forever, my everything.
+💕'} />
               </p>
               <p className="text-pink-600 font-medium mt-2"><AnimatedText text="Forever yours, always caring, always loving." /></p>
             </motion.div>
