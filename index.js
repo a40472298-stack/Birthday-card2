@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Happy Birthday — Open Card</title>
+        <title>Happy Birthday Maha — Open Card</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
@@ -80,7 +80,7 @@ export default function Home() {
         <div className="w-full max-w-md bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-6 z-10">
           {!opened ? (
             <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }} className="text-center">
-              <h1 className="text-2xl font-bold text-pink-700 mb-3">🎉 Happy Birthday</h1>
+              <h1 className="text-2xl font-bold text-pink-700 mb-3">🎉 Happy Birthday Maha</h1>
               <p className="text-gray-600 mb-6">Click the button to open your surprise card 💌</p>
               <button onClick={handleOpen} className="bg-pink-500 text-white px-6 py-3 rounded-xl shadow hover:scale-105 transition">
                 Open Card
@@ -93,9 +93,10 @@ export default function Home() {
                   <path d="M12 21s-7-4.35-9-6.92C-0.22 9.9 4.5 4 9.5 7.5 12 9.33 12 9.33 14.5 7.5 19.5 4 24.22 9.9 21 14.08 19 16.65 12 21 12 21z" fill="#EF4444"/>
                 </svg>
               </div>
-              <h2 className="text-2xl font-semibold text-pink-700"><AnimatedText text="To My Love ❤️" /></h2>
+              <h2 className="text-2xl font-semibold text-pink-700"><AnimatedText text="To Mere jind jan Maha ❤️" /></h2>
               <p className="text-gray-700 leading-relaxed text-left">
-                <AnimatedText text={"On this special day, I want you to know you are my heart, my peace, and my forever. Your smile lights up my world, and your love completes me in every way. May this birthday be filled with as much joy as the love you've given me every single day. 💕"} />
+                <AnimatedText text={" Happy Birthday, my love ❤️🌙 As the world quietly enters this new day, my heart is louder than ever, beating only for you. From the very first moment I met you, my life changed in ways I can’t even put into words — you became my comfort, my hope, my safe place, and my greatest blessing. Tonight isn’t just about celebrating the day you were born; it’s about celebrating the light you bring to my life, the kindness you give to everyone around you, and the love that makes me whole. I want to be the reason behind your smile, the hand you hold through every storm, and the soul that makes you feel cherished every single day. This birthday, and every birthday after, I promise to love you deeper than yesterday, care for you more than ever, and stand by you for all of life’s tomorrows. You are not just my love, you are my forever, my everything."
+"} />
               </p>
               <p className="text-pink-600 font-medium mt-2"><AnimatedText text="Forever yours, always caring, always loving." /></p>
             </motion.div>
@@ -103,7 +104,7 @@ export default function Home() {
         </div>
 
         {/* Audio (plays after user interacts) */}
-        <audio ref={audioRef} src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" loop />
+        <audio ref={audioRef} src="https://youtu.be/sqkzN2Ye_pk?si=i2uKSsatSieWdXdv" loop />
       </div>
     </>
   )
