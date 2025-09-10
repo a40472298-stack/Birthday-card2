@@ -51,7 +51,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Happy Birthday — Open Card</title>
+        <title>Happy Birthday Maha jan — Open Card</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
