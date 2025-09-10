@@ -80,7 +80,7 @@ export default function Home() {
         <div className="w-full max-w-md bg-white/80 backdrop-blur-sm rounded-2xl shadow-2xl p-6 z-10">
           {!opened ? (
             <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }} className="text-center">
-              <h1 className="text-2xl font-bold text-pink-700 mb-3">🎉 Happy Birthday</h1>
+              <h1 className="text-2xl font-bold text-pink-700 mb-3">🎉 Happy Birthday Maha</h1>
               <p className="text-gray-600 mb-6">Click the button to open your surprise card 💌</p>
               <button onClick={handleOpen} className="bg-pink-500 text-white px-6 py-3 rounded-xl shadow hover:scale-105 transition">
                 Open Card
@@ -105,7 +105,7 @@ export default function Home() {
         </div>
 
         {/* Audio (plays after user interacts) */}
-        <audio ref={audioRef} src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" loop />
+        <audio id= "big music" src="/MAHA_Birthday_Song_–_Happy_Birthday_Maha(48k).mp3" loop />
       </div>
     </>
   )
